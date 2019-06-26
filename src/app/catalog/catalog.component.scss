@@ -1,0 +1,16 @@
+#catalog,td,tr{
+    border:1px solid black;
+    height:115px;
+    width:175px;
+    float:left;
+    border-collapse: collapse;
+    
+}
+// #scroll{
+//     overflow: scroll;
+//     height: 100%;
+// }
+table,tr,td:nth-child(odd) {
+    background-color: #f1f1f1;
+  }
+ 

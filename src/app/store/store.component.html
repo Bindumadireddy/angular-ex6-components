@@ -1,0 +1,7 @@
+
+<div id="store">  
+  store
+  <app-catalog (content)="array2=$event" (add)="n=$event"  ></app-catalog>
+  <app-cart [order]="array2"  [total]="n" (del)="n=$event"></app-cart>
+  <app-checkout [total]="n"></app-checkout>
+  </div>

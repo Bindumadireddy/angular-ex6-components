@@ -1,0 +1,9 @@
+<div>
+  <table id="catalog">
+  <caption>catalog</caption>
+  <tr  *ngFor="let item of array1">
+       
+      <td>{{item.item}}<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{item.product}}<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rs.{{item.price}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button (click)="addcart(item)">Add To Cart</button></td>
+       </tr>
+</table>
+</div>

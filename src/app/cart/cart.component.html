@@ -1,0 +1,9 @@
+<div>
+  <table id="cart">
+    <caption>cart</caption>
+    <tr *ngFor="let item of order;let i=index">
+        {{item.item}}&nbsp;&nbsp;&nbsp;{{item.product}}<br>&nbsp;&nbsp;&nbsp;Rs.{{item.price}}&nbsp;<button (click)="remove(i,item)">Remove</button>
+         </tr>
+         
+  </table>
+</div>
